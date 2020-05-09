@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_awal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:layout_width="310dp"
+        android:layout_height="234dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:hint="Form Login" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="298dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:hint="Username" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="298dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="#fff"
+        android:hint="Password"/>
+
+    <Button
+        android:background="#20B2AA"
+        android:layout_gravity="center"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textColorHint="#ffff"
+        android:hint="Sign In" />
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint="You Need an Account? Sign Up"
+        android:textColorHint="#fff"
+        android:textStyle="bold" />
+
+</LinearLayout>
